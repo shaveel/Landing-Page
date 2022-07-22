@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     margin: 0;
       
 }
@@ -11,7 +12,15 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     display: flex;
+    /* flex: 1 0 auto; */
     justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* flex: 1 0 auto; */
+
 }
 
 .header-links {
@@ -21,10 +30,10 @@ body {
 }
 
 .main-body {
-    display: flex;
-    flex-direction: column;
-    justify-items: space-between;
-    flex: 1;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-items: space-between; */
+    /* flex: 1 0 auto */
 }
 .hero {
     display: flex;
@@ -52,13 +61,23 @@ body {
     color: #E5E7EB;
 }
 
+.rand-info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
 }
-.rand-info {
-    margin: 0;
-    padding: 0;
+
+.logo {
+    display: flex;
+    
 }
 
 .body-quote {
