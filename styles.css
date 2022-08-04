@@ -1,8 +1,9 @@
 body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* justify-content: space-between; */
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
       
 }
 .header {
@@ -12,15 +13,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     display: flex;
-    /* flex: 1 0 auto; */
     justify-content: space-between;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    /* flex: 1 0 auto; */
-
 }
 
 .header-links {
@@ -29,12 +22,17 @@ body {
     font-size: 18px;
 }
 
-.main-body {
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-items: space-between; */
-    /* flex: 1 0 auto */
+.footer {
+    padding: 18px;
+    background: #1f2937;
+    color: #E5E7EB;
 }
+
+.footer p {
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -64,8 +62,7 @@ body {
 .rand-info {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    padding: 10px;
     align-items: center;
 }
 
@@ -73,38 +70,81 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 10px;
 }
 
 .infobody {
     display: flex;
+    /* padding: 180px; */
+
+    gap: 50px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    width: 230px;
+    height: 230px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
 }
 
 .logo {
-    display: flex;
     width: 150px;
     height: 150px;
-    border: 2px solid blue;
+    border: 4px solid blue;
     border-radius: 20px;
 }
 
 .infotext {
-    display: flex;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
 }
 
 .body-quote {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
     background: #E5E7EB;
-    margin: 0;
-    padding: 0;
+    padding: 200px;
+}
+
+/* .body-quote p {
+    width: fit-content;
+    margin:  auto;
+} */
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+}
+
+.author {
+    text-align: right;
+    
+}
+
+.signup {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.modal {
+    display: flex;
+    gap: 300px;
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    /* align-items: center; */
+    justify-content: center;
+
 }
 
 ul {
@@ -123,6 +163,7 @@ button {
     padding: 7px 32px;
     background: #3882F6;
     color: #E5E7EB;
+    border: 1px solid #E5E7EB;
 }
 
 #hero-signup {
